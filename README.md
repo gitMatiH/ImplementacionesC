@@ -9,6 +9,15 @@ Para compilar el codigo C:
 gcc -o ejemplo main2.c 
 ./ejemplo.exe
 ```
+<h2>Blog | opensource.com</h2>
+<p>
+https://opensource.com/article/19/5/how-write-good-c-main-function <br>
+https://opensource.com/article/19/7/structure-multi-file-c-part-1 <br>
+https://opensource.com/article/19/7/structure-multi-file-c-part-2 <br>
+https://opensource.com/article/18/3/what-open-source-programming <br>
+https://opensource.com/article/22/8/writing-project-documentation-html <br>
+</p>
+
 <h2>Hands on Debugging in C and C++</h2>
 <p>https://www.udemy.com/course/draft/3720308</p>
 <h2>C Programming For Beginners - Master the C Language</h2>
