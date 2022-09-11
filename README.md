@@ -9,6 +9,19 @@ Para compilar el codigo C:
 gcc -o ejemplo main2.c 
 ./ejemplo.exe
 ```
+<h2>Makefile-Related Videos | Jacob Sorber</h2>
+<p>
+https://www.youtube.com/playlist?list=PL9IEJIKnBJjEPxenuhKU7J5smY4XjFnyg
+</p>
+<h2>Beginner C Videos | Jacob Sorber</h2>
+<p>
+https://www.youtube.com/playlist?list=PL9IEJIKnBJjG5H0ylFAzpzs9gSmW_eICB
+</p>
+<h2>Data Structures | Jacob Sorber</h2>
+<p>
+https://www.youtube.com/playlist?list=PL9IEJIKnBJjFiudyP6wSXmykrn67Ykqib
+</p>
+
 <h2>Blog | opensource.com</h2>
 <p>
 https://opensource.com/article/19/5/how-write-good-c-main-function <br>
