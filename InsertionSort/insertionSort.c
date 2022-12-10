@@ -14,12 +14,23 @@ void imprimirElementos(int *elem, int longitud)
     printf("%d\n", elem[1]);    
 }
 
-/*
-void insertionSort(int *arreglo, int longitud)
+
+void insertionSort(int *pArreglo, int longitud)
 {
-	return 0;
+	int j;
+	int i = 1;
+	while (i<longitud)
+	{
+		j = i;
+		while ( j!=0 && pArreglo[j] < pArreglo[j-1] )
+		{
+			swap(j, j+1, pArreglo);
+			j = j + 1;
+		}
+		i = j + 1;
+	}
 }
-*/
+
 
 
 int main() {
@@ -31,7 +42,7 @@ int main() {
 
 	int longitud = sizeof(arr)/sizeof(arr[0]);
 
-	//insertionSort(datos, longitud);
+	insertionSort(pArreglo, longitud);
 	imprimirElementos(pArreglo, longitud);
 
 	return 0;
