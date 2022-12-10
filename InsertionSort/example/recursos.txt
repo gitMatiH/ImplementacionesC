@@ -1,0 +1,2 @@
+https://stdin.top/posts/csv-in-c/
+https://www.geeksforgeeks.org/relational-database-from-csv-files-in-c/

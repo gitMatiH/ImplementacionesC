@@ -1,0 +1,1 @@
+int* lectura(int* arr);

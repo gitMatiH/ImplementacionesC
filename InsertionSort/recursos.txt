@@ -1,0 +1,3 @@
+https://www.programiz.com/c-programming/c-file-input-output
+https://www.programiz.com/c-programming/examples/read-file
+https://www.programiz.com/c-programming/c-file-examples
