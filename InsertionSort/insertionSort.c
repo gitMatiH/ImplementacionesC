@@ -24,8 +24,8 @@ void insertionSort(int *pArreglo, int longitud)
 		j = i;
 		while ( j!=0 && pArreglo[j] < pArreglo[j-1] )
 		{
-			swap(j, j+1, pArreglo);
-			j = j + 1;
+			swap(j, j-1, pArreglo);
+			j = j - 1;
 		}
 		i = j + 1;
 	}
@@ -41,7 +41,7 @@ int main() {
 	pArreglo = lectura(arr);
 
 	int longitud = sizeof(arr)/sizeof(arr[0]);
-
+	printf("%d \n", longitud);
 	insertionSort(pArreglo, longitud);
 	imprimirElementos(pArreglo, longitud);
 
