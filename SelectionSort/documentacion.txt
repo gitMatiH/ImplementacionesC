@@ -1,0 +1,21 @@
+C:\Users\Matias\Documents\ProyectosC_C++\ImplementacionesC\SelectionSort>gcc -o selectionSort selectionSort.c swap.c imprimirElementos.c
+
+C:\Users\Matias\Documents\ProyectosC_C++\ImplementacionesC\SelectionSort>selectionSort 25 36 1 54 65
+elem 25
+elem 36
+elem 1
+elem 54
+elem 65
+elem (null)
+longitud de strings de entrada 7
+longitudEnteros 5
+elem 25
+elem 36
+elem 1
+elem 54
+elem 65
+ordenamiento
+longitud: 5
+Elementos del array:
+1 25 36 54 65
+C:\Users\Matias\Documents\ProyectosC_C++\ImplementacionesC\SelectionSort>
