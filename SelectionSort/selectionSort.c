@@ -40,7 +40,9 @@ void selectionSort(int argc, char **argv)
         i = i + 1;
     }
 
-    //imprimirElementos(arreglo);
+    imprimirElementos(arreglo, longitudEnteros);
+    printf("sizeof(arreglo): %d\n",sizeof(arreglo));
+    printf("sizeof(arreglo[0]): %d\n",sizeof(arreglo[0]));
 
     printf("ordenamiento\n");
     //ordenamiento sobre el mismo arreglo
@@ -60,7 +62,7 @@ void selectionSort(int argc, char **argv)
         swap(pos_menor, j, arreglo);
     }
 
-    //imprimirElementos(arreglo);
+    imprimirElementos(arreglo, longitudEnteros);
 
 
     longitud = sizeof(arreglo)/sizeof(arreglo[0]);

@@ -19,3 +19,70 @@ longitud: 5
 Elementos del array:
 1 25 36 54 65
 C:\Users\Matias\Documents\ProyectosC_C++\ImplementacionesC\SelectionSort>
+
+
+
+
+
+***************************
+
+#include <stdio.h>
+
+void swap(int i, int j,int *elem)
+{
+/*
+    printf("sizeof(elem): %d\n",sizeof(elem));
+    printf("sizeof(elem[0]): %d\n",sizeof(elem[0]));
+    int longitud = sizeof(elem)/sizeof(elem[0]);
+    printf("longitud: %d\n", longitud);
+*/
+    int aux;
+    aux = elem[i];
+    elem[i] = elem[j];
+    elem[j] = aux;
+}
+
+
+C:\Users\Matias\Documents\ProyectosC_C++\ImplementacionesC\SelectionSort>selectionSort 4 5 6 1 2
+elem 4
+elem 5
+elem 6
+elem 1
+elem 2
+elem (null)
+longitud de strings de entrada 7
+longitudEnteros 5
+elem 4
+elem 5
+elem 6
+elem 1
+elem 2
+Se ejecuta imprimirElementos.c
+sizeof(elem): 8
+sizeof(elem[0]): 4
+longitud: 2
+Elementos del array:
+4 5
+Cuarto elemento del array:
+1
+ordenamiento
+sizeof(elem): 8
+sizeof(elem[0]): 4
+longitud: 2
+sizeof(elem): 8
+sizeof(elem[0]): 4
+longitud: 2
+sizeof(elem): 8
+sizeof(elem[0]): 4
+longitud: 2
+sizeof(elem): 8
+sizeof(elem[0]): 4
+longitud: 2
+sizeof(elem): 8
+sizeof(elem[0]): 4
+longitud: 2
+longitud: 5
+Elementos del array:
+1 2 4 5 6
+**********************************
+
