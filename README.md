@@ -9,6 +9,9 @@ Para compilar el codigo C:
 gcc -o ejemplo main2.c 
 ./ejemplo.exe
 ```
+<p>
+https://en.cppreference.com/w/
+</p>
 <h2>Makefile-Related Videos | Jacob Sorber</h2>
 <p>
 https://www.youtube.com/playlist?list=PL9IEJIKnBJjEPxenuhKU7J5smY4XjFnyg
