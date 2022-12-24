@@ -1,0 +1,28 @@
+C:\Users\Matias\Documents\ProyectosC_C++\ImplementacionesC\Grafos>dot ejemplo.dot -Tpdf > graph.pdf
+
+******************************************
+
+
+C:\Users\Matias\Documents\ProyectosC_C++\ImplementacionesC\Grafos>gcc -g -Wall -c graph_adj_mat.c -o graph_adj_mat.o
+C:\Users\Matias\Documents\ProyectosC_C++\ImplementacionesC\Grafos>gcc -g -Wall main.c graph_adj_mat.o -o main
+
+**************************************
+
+
+C:\Users\Matias\Documents\ProyectosC_C++\ImplementacionesC\Grafos>gcc -g -Wall -c graph_adj_mat.c -o graph_adj_mat.o
+
+C:\Users\Matias\Documents\ProyectosC_C++\ImplementacionesC\Grafos>gcc -g -Wall main.c graph_adj_mat.o -o main
+
+C:\Users\Matias\Documents\ProyectosC_C++\ImplementacionesC\Grafos>main
+digraph {
+0 -> 0;
+0 -> 1;
+0 -> 2;
+1 -> 2;
+1 -> 3;
+3 -> 4;
+4 -> 0;
+4 -> 1;
+}
+
+C:\Users\Matias\Documents\ProyectosC_C++\ImplementacionesC\Grafos>main | dot -Tpdf > vis.pdf
