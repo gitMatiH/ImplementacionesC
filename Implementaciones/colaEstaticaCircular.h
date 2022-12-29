@@ -1,4 +1,8 @@
+#ifndef COLA_ESTATICA_CIRCULAR_H
+#define COLA_ESTATICA_CIRCULAR_H
 #define CMAX 15
+
+
 
 typedef int tDato;
 
@@ -52,3 +56,6 @@ void cSacar(tCola* q, tDato* x) //ojo ahora tDato va por ref
     }
     *x = q->elem[q->inicio];
 }
+
+
+#endif

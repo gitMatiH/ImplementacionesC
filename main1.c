@@ -6,13 +6,13 @@
 #include <stdbool.h>
 
 //definicion de pila de entrada
-#include "pilaEstatica.h"
+#include "Implementaciones/pilaEstatica.h"
 //definicion de cola de salida
-#include "colaDinamica.h"
+#include "Implementaciones/colaDinamica.h"
 //la cola no hace falta definirla porque no se invoca a este nivel (se usa recien en moveAndOrder)
 
 //inclusion del procedimiento moveAndOrder
-#include "moveAndOrder.h"
+#include "Implementaciones/moveAndOrder.h"
 
 int main(void)
 {

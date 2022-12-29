@@ -1,7 +1,7 @@
 //* a la derecha era para definir un puntero
 //* a la izquierda es para indireccion
 
-typedef int tClave
+typedef int tClave;
 
 typedef struct dato
 {
