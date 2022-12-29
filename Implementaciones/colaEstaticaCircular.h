@@ -102,6 +102,12 @@ void cPoner(tCola* q, tDato x)
 
 void cSacar(tCola* q, tDato* x)
 {
+
+/**
+*   Precondicion: no cVacia()
+*   Poscondicion: saca el elemento x de tipo'' del principio de la cola
+ */
+
     if (q->inicio == CMAX-1)
     {
         q->inicio = 0;
