@@ -28,7 +28,7 @@ void printtabs(int numtabs) {
 void printtree_rec(treenode *root, int level) {
   if (root == NULL) {
     printtabs(level);
-    printf("---<empty>--\n");
+    printf("---<empty>---\n");
     return;
   }
   printtabs(level);
