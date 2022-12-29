@@ -42,6 +42,38 @@ float porcentajeOcupacion(tCola* q, int longitudArr) {
 
 }
 
+
+/*
+//metodo que accede a cosas privadas (con conocimiento longitud)
+//se hace con sizeof de antes
+void imprimirCola(tCola* q, int longitudArr) {
+    //tCola qq = *q;
+    int inicio = (*q).inicio;
+    printf("inicio %d", inicio);
+    printf("%d, ", (*q)[inicio]);
+    int fin = (*q).fin;
+    printf("fin %d", fin);
+    printf("\nCola:\n[");
+    if (inicio < fin) {
+        while (inicio < fin) {
+            printf("%d, ", (*q)[inicio]);
+            inicio = inicio + 1;
+        }
+    }
+    if (fin < inicio) {
+        fin = inicio + fin;
+        while (inicio <= fin) {
+            printf("%d, ", (*q)[inicio]);
+            inicio = inicio + 1;
+        }
+    }
+    if (fin == inicio) {
+        printf(" ");
+    }
+    printf("]");
+}
+*/
+
 /*sin conocimiento de longitudArr*/
 
 void cCrear(tCola* q)
