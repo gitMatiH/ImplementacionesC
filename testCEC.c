@@ -81,12 +81,14 @@ void main() {
 	estadoCola(sal);
 
 	printf("\n");
-	int d = 1;
+	estadoCola(sal);
+	int d = 0;
 	while (cLlena(&cola1) == 0) {
 		printf("%d, ", d);
 		cPoner(&cola1, d);
 		d = d + 1;
 	}
+	//cPoner(&cola1, d);
 	sal = cVacia(&cola1);
 	estadoCola(sal);
 	//imprimirCola(&cola1, CMAX);

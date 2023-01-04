@@ -1,6 +1,6 @@
 #ifndef PILA_ESTATICA_ENTEROS_H
 #define PILA_ESTATICA_ENTEROS_H
-#define CMAX 15
+#define CMAX 50
 
 typedef int tDato;
 
