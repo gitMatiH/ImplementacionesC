@@ -1,51 +1,40 @@
 #ifndef RBTREE_H
 #define RBTREE_H
 
-typedef struct rbtree RBTree;
+#include <stddef.h>
 
-/*
- * Creates a new red-black tree and returns a pointer to it.
- *
- * @return: pointer to the new red-black tree
- */
-RBTree* rbtree_create(void);
-
-/*
- * Destroys the specified red-black tree.
- *
- * @tree: pointer to the red-black tree
- */
-void rbtree_destroy(RBTree* tree);
-
-/*
- * Inserts a new element into the red-black tree.
- *
- * @tree: pointer to the red-black tree
- * @key: key of the element to be inserted
- * @value: value of the element to be inserted
- *
- * @return: 0 if the element was successfully inserted, or -1 if an error occurred
- */
-int rbtree_insert(RBTree* tree, int key, int value);
-
-/*
- * Removes the element with the specified key from the red-black tree.
- *
- * @tree: pointer to the red-black tree
- * @key: key of the element to be removed
- *
- * @return: 0 if the element was successfully removed, or -1 if an error occurred
- */
-int rbtree_remove(RBTree* tree, int key);
-
-/*
- * Returns the value of the element with the specified key in the red-black tree.
- *
- * @tree: pointer to the red-black tree
- * @key: key of the element to be retrieved
- *
- * @return: value of the element, or -1 if the element was not found
- */
-int rbtree_get(RBTree* tree, int key);
-
+#ifdef __cplusplus
+extern "C" {
 #endif
+
+typedef struct rbtree_node_t {
+  struct rbtree_node_t* left;
+  struct rbtree_node_t* right;
+  struct rbtree_node_t* parent;
+  int is_red;
+} rbtree_node_t;
+
+typedef struct rbtree_t {
+  rbtree_node_t* root;
+} rbtree_t;
+
+/* Function prototypes for API functions */
+
+/* Create and destroy tree */
+rbtree_t* rbtree_create(void);
+void rbtree_destroy(rbtree_t* tree);
+
+/* Insert and remove nodes */
+int rbtree_insert(rbtree_t* tree, rbtree_node_t* node);
+int rbtree_remove(rbtree_t* tree, rbtree_node_t* node);
+
+/* Find nodes */
+rbtree_node_t* rbtree_find(rbtree_t* tree, int key);
+rbtree_node_t* rbtree_min(rbtree_t* tree);
+rbtree_node_t* rbtree_max(rbtree_t* tree);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  /* RBTREE_H */
