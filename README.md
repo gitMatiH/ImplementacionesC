@@ -2,7 +2,8 @@
 <p>
 Implementaciones de TDA's en C. <br>
 Estructuras de datos útiles. Más por agregar. <br>
-http://cslibrary.stanford.edu/
+http://cslibrary.stanford.edu/  <br>
+https://www.rose-hulman.edu/class/cs/csse120/Resources/C/
 </p>
 
 Para compilar el codigo C: 
