@@ -1,7 +1,8 @@
 <h1>ImplementacionesC</h1>
 <p>
 Implementaciones de TDA's en C. <br>
-Estructuras de datos útiles. Más por agregar.
+Estructuras de datos útiles. Más por agregar. <br>
+http://cslibrary.stanford.edu/
 </p>
 
 Para compilar el codigo C: 
